@@ -1,0 +1,10 @@
+﻿namespace StyleIssues.CA1304
+{
+    public static class MyClass
+    {
+        public static string MyMethod(string str)
+        {
+            return "K-" + str.ToUpper(System.Globalization.CultureInfo.InvariantCulture);
+        }
+    }
+}
